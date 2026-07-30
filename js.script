@@ -1219,44 +1219,43 @@ function kirimWhatsApp() {
 
     const pesan =
 
-` *PESANAN BARU*
-
-Nama:
-${nama}
-
-WhatsApp:
-${wa}
-
-Alamat:
-${alamat}
-
-Pesanan:
-${daftarMenu}
-
-Pengiriman:
-${metodePengiriman}
-
-Pedas:
-${pedas}
-
-Subtotal:
-${subtotal}
-
-Ongkir:
-${ongkir}
-
-Total:
-${total}
-
-Pembayaran
-${metodePembayaran}
-
-Catatan:
-${catatan}
-
-Terima kasih 
-TAHU GEJROT PAKDE BURUNG`;
-
+` 🍽️ *PESANAN BARU*		
+		
+👤 Nama		
+${nama}		
+		
+📱 WhatsApp		
+${wa}		
+		
+📍 Alamat		
+${alamat}		
+		
+🛒 Pesanan		
+${daftarMenu}		
+		
+🚚 Pengiriman		
+${metodePengiriman}		
+		
+🌶️ Pedas		
+${pedas}		
+		
+💰 Subtotal		
+${subtotal}		
+		
+🚚 Ongkir		
+${ongkir}		
+		
+💵 Total		
+${total}		
+		
+💳 Pembayaran		
+${metodePembayaran}		
+		
+📝 Catatan		
+${catatan}		
+		
+Terima kasih 🙏		
+TAHU GEJROT PAKDE BURUNG`;		
     const nomorAdmin = "6285774537978";
 
     window.open(
