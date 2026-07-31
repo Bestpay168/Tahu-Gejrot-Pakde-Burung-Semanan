@@ -947,7 +947,7 @@ copyright.innerHTML=
 document.addEventListener("DOMContentLoaded", function () {
 
     // Event tombol + dan -
-    document.querySelectorAll(".menu-item").forEach(function (item) {
+    document.querySelectorAll(".produk-item").forEach(function (item) {
 
         const plus = item.querySelector(".plus");
         const minus = item.querySelector(".minus");
@@ -1000,7 +1000,7 @@ function updateCart() {
 
     let cartHTML = "";
 
-    document.querySelectorAll(".menu-item").forEach(function (item) {
+    document.querySelectorAll(".produk-item").forEach(function (item) {
 
         const nama = item.dataset.name;
 
@@ -1177,7 +1177,7 @@ function kirimWhatsApp() {
 
     let adaPesanan = false;
 
-    document.querySelectorAll(".menu-item").forEach(function (item) {
+    document.querySelectorAll(".produk-item").forEach(function (item) {
 
         const qty = parseInt(item.querySelector(".qty").value);
 
