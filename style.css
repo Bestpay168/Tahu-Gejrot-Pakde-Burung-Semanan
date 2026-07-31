@@ -71,7 +71,6 @@ margin:auto;
 /* ===================================
 HEADER
 =================================== */
-
 .header{
     position:fixed;
     top:0;
@@ -100,15 +99,12 @@ HEADER
 }
 
 .logo img{
-    width:48px;
-    height:48px;
-    object-fit:contain;
+    width:45px;
 }
 
 .logo h2{
     color:#fff;
     font-size:18px;
-    font-weight:700
 }
 
 .logo span{
@@ -135,8 +131,8 @@ HEADER
 .burger{
     display:none;
 
-    width:65px;
-    height:65px;
+    width:45px;
+    height:45px;
 
     border-radius:50%;
 
@@ -194,11 +190,13 @@ body{
         box-shadow:-8px 0 20px rgba(0,0,0,.25);
     }
 
-    .navbar.flex{
+    .navbar.active{
         right:0;
     }
 
 }
+
+
 
 
 
