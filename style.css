@@ -204,9 +204,9 @@ body{
 HERO
 ================================== */
 
-hero{
+.hero{
 
-position:absolute;
+position:relative;
 
 height:100vh;
 
@@ -218,7 +218,7 @@ justify-content:center;
 
 text-align:center;
 
-background:url("hero1.jpg") center center/cover no-repeat;
+background:url("../banner.png") center center/cover no-repeat;
 
 }
 
@@ -226,7 +226,7 @@ background:url("hero1.jpg") center center/cover no-repeat;
 
 .overlay{
 
-position:relative;
+position:absolute;
 
 top:0;
 
@@ -243,7 +243,7 @@ background:rgba(0,0,0,.20);
 
 .hero-content{
 
-position:absolute;
+position:relative;
 
 z-index:10;
 
@@ -414,12 +414,6 @@ transform:translate(-50%,0);
 }
 
 }
-/* ==========================================
-   STYLE.CSS
-   BAGIAN 2B
-   MENU + ABOUT
-========================================== */
-
 
 /*==========================
 SECTION TITLE
