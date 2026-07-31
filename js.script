@@ -465,10 +465,9 @@ cards[random].style.transform=
 const heroSection = document.querySelector(".hero");
 
 const heroImages = [
-    "hero1.jpg",
-    "hero2.jpg",
-    "hero3.jpg"
-];
+    "banner.png",
+    
+    ];
 
 let currentHero = 0;
 
