@@ -5,8 +5,12 @@
 ========================================== */
 
 document.addEventListener("DOMContentLoaded", function () {
+const payment = document.getElementById("payment");
 
-    /* ======================================
+if (payment) {
+    payment.addEventListener("change", showPaymentInfo);
+}
+ ======================================
        LOADER
     ====================================== */
 
@@ -914,6 +918,11 @@ copyright.innerHTML=
 ========================================== */
 
 document.addEventListener("DOMContentLoaded", function () {
+const payment = document.getElementById("payment");
+
+if (payment) {
+    payment.addEventListener("change", showPaymentInfo);
+}
 
     // Event tombol + dan -
     document.querySelectorAll(".produk-item").forEach(function (item) {
@@ -958,6 +967,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+}
 
 /* ==========================================
    UPDATE SHOPPING CART
@@ -1098,7 +1108,7 @@ function showPaymentInfo() {
 
     }
 
-
+}
 /* ==========================================
    KIRIM WHATSAPP
 ========================================== */
