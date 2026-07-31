@@ -205,7 +205,7 @@ HERO
 
 .hero{
 
-position:relative;
+position:absolute;
 
 height:100vh;
 
@@ -242,7 +242,7 @@ background:rgba(0,0,0,.20);
 
 .hero-content{
 
-position:relative;
+position:absolute;
 
 z-index:10;
 
@@ -588,7 +588,7 @@ ABOUT
 
 }
 
-.about-box{
+.about{
 
     display:grid;
 
@@ -1662,6 +1662,8 @@ justify-content:center;
 
 }
 
+}
+
 /* ==========================================
    GOOGLE MAPS
 ========================================== */
@@ -1745,4 +1747,6 @@ justify-content:center;
 
 .btn-order:hover{
     background:#e86800;
+}
+
 }
