@@ -100,7 +100,7 @@ HEADER
 }
 
 .logo img{
-    width:45px;
+    width:65px;
 }
 
 .logo h2{
@@ -132,8 +132,8 @@ HEADER
 .burger{
     display:none;
 
-    width:45px;
-    height:45px;
+    width:65px;
+    height:65px;
 
     border-radius:50%;
 
