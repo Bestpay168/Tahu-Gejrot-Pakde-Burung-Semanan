@@ -192,11 +192,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-/* ==========================================
-   SCRIPT.JS
-   BAGIAN 5B
-   SCROLL ANIMATION + COUNTER + PARALLAX
-========================================== */
 
 
 /* ======================================
@@ -464,16 +459,6 @@ cards[random].style.transform=
 
 
 /* ======================================
-   END BAGIAN 5B
-====================================== */
-
-/* ==========================================
-   SCRIPT.JS
-   BAGIAN 5C
-   HERO SLIDER
-========================================== */
-
-/* ======================================
    HERO AUTO SLIDER
 ====================================== */
 
@@ -688,12 +673,6 @@ console.log("Slider Active");
 
 );
 
-/* ==========================================
-   SCRIPT.JS
-   BAGIAN 5D
-   GALLERY + MOBILE MENU + FINAL
-========================================== */
-
 
 /* ======================================
    GALLERY LIGHTBOX
@@ -899,17 +878,8 @@ heroText.innerHTML=slogan[random];
 
 },5000);
 
-}
 
-
-
-
-
-/* ======================================
-   INIT
-====================================== */
-
-
+},
 
 /* ======================================
    LAZY IMAGE
@@ -1173,7 +1143,7 @@ function kirimWhatsApp() {
 
     }
 
-    let daftarMenu = "";
+    let produkMenu = "";
 
     let adaPesanan = false;
 
@@ -1187,7 +1157,7 @@ function kirimWhatsApp() {
 
             const harga = parseInt(item.dataset.price);
 
-            daftarMenu +=
+            daftarproduk +=
                 "• " +
                 item.dataset.name +
                 " x" +
