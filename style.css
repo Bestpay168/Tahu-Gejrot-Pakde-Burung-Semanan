@@ -100,12 +100,15 @@ HEADER
 }
 
 .logo img{
-    width:65px;
+    width:48px;
+    height:48px;
+    object-fit:contain;
 }
 
 .logo h2{
     color:#fff;
     font-size:18px;
+    font-weight:700
 }
 
 .logo span{
