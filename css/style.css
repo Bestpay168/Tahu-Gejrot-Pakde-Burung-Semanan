@@ -97,7 +97,7 @@ HEADER
 }
 
 .logo img{
-    width:45px;
+    width:48px;
 }
 
 .logo h2{
@@ -216,7 +216,7 @@ justify-content:center;
 
 text-align:center;
 
-background:url("../banner.png") center center/cover no-repeat;
+background:url("banner.png") center center/cover no-repeat;
 
 }
 
@@ -704,13 +704,6 @@ FEATURE BOX
 
 }
 
-/* ==========================================
-   STYLE.CSS
-   BAGIAN 2C
-   GALLERY + CTA + FOOTER + WHATSAPP
-==========================================*/
-
-
 /*==========================
 GALLERY
 ==========================*/
@@ -1102,12 +1095,6 @@ transform:translateY(0);
     font-size:15px;
 
 }
-/* ==========================================
-   STYLE.CSS
-   BAGIAN 2D
-   EFFECT + ANIMATION + UTILITIES
-==========================================*/
-
 
 /*==============================
 GLOBAL TRANSITION
@@ -1548,9 +1535,6 @@ box-shadow:var(--shadow);
     transform:scale(1.2);
 }
 
-/*==============================
-END STYLE.CSS
-==============================*/
 /* ==========================================
    BURGER MENU
 ========================================== */
