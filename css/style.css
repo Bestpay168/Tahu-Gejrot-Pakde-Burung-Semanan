@@ -1728,3 +1728,77 @@ justify-content:center;
 }
 
 }
+
+.produk-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border:1px solid #eee;
+
+    border-radius:15px;
+
+}
+
+.produk-info{
+
+    flex:1;
+
+}
+
+.qty-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+.plus,
+.minus{
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#ff9800;
+
+    color:#fff;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
+#cart{
+
+    padding:20px;
+
+    background:#fafafa;
+
+    border-radius:12px;
+
+}
+.price-summary{
+
+    padding:20px;
+
+    background:#fff7ef;
+
+    border-radius:15px;
+
+}
