@@ -552,7 +552,7 @@ MOBILE MENU
 
 .burger{
 
-display:glex;
+display:flex;
 
 font-size:30px;
 
@@ -562,15 +562,6 @@ cursor:pointer;
 
 }
 
-@media(max-width:768px){
-
-.produk-item{
-
-flex-direction:column;
-
-align-items:flex-start;
-
-}
 
 .qty-box{
 
