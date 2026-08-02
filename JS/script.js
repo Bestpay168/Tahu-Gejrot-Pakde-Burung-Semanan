@@ -1243,4 +1243,4 @@ TAHU GEJROT PAKDE BURUNG`;
         "_blank"
     );
 
-}
+
