@@ -144,7 +144,7 @@ HEADER
     cursor:pointer;
 }
 
-.menuoverlay{
+.menu-overlay{
     position:fixed;
     inset:0;
 
@@ -158,7 +158,7 @@ HEADER
     z-index:999;
 }
 
-.menuoverlay.show{
+.menu-overlay.show{
     opacity:1;
     visibility:visible;
 }
@@ -193,10 +193,6 @@ body{
      right:0;
     }
 
-}
-
-
-
 
 
 /* ==================================
@@ -223,7 +219,7 @@ background:url("banner.png") center center/cover no-repeat;
 
 /* Overlay */
 
-.menuoverlay{
+.overlay{
 
 position:absolute;
 
@@ -1711,7 +1707,7 @@ justify-content:center;
     border-color:#ff7a00;
 }
 
-.btn-order{
+.order{
     width:100%;
     padding:16px;
     background:#ff7a00;
@@ -1724,7 +1720,7 @@ justify-content:center;
     transition:.3s;
 }
 
-.btn-order:hover{
+.order:hover{
     background:#e86800;
 }
 
