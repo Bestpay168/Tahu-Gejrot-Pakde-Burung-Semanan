@@ -979,7 +979,7 @@ function updateCart() {
 
     let cartHTML = "";
 
-    document.querySelectorAll(".produk-item").forEach(function (item) {
+    document.querySelectorAll(".menu-item").forEach(function (item) {
 
         const nama = item.dataset.name;
 
