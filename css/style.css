@@ -189,7 +189,8 @@ body{
     }
 
     .navbar.active{
-        right:0;
+     position:flex;       
+     right:0;
     }
 
 }
@@ -222,7 +223,7 @@ background:url("banner.png") center center/cover no-repeat;
 
 /* Overlay */
 
-.overlay{
+.menuoverlay{
 
 position:absolute;
 
