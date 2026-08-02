@@ -35,7 +35,7 @@ section{
     background:#111;
 }
 
-.nav{
+.navbar{
 
     flex-wrap:wrap;
 
@@ -45,12 +45,12 @@ section{
 
 }
 
-nav{
+navbar{
     width:100%;
     margin-top:20px;
 }
 
-nav ul{
+navbar ul{
 
     justify-content:center;
 
