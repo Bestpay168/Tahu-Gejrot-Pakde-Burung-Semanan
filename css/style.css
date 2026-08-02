@@ -1667,6 +1667,7 @@ justify-content:center;
     border:0;
     display:block;
 }
+
 .order{
     padding:100px 0;
     background:#fafafa;
@@ -1729,7 +1730,7 @@ justify-content:center;
 
 }
 
-.produk-item{
+.menu-item{
 
     display:flex;
 
@@ -1749,7 +1750,7 @@ justify-content:center;
 
 }
 
-.produk-info{
+.menu-info{
 
     flex:1;
 
