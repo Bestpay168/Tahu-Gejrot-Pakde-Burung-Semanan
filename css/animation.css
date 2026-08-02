@@ -562,35 +562,21 @@ cursor:pointer;
 
 }
 
-@media(max-width:767px){
+@media(max-width:768px){
 
-.burger
+.produk-item{
 
-display:block;
+flex-direction:column;
 
-}
-
-.navbar{
-
-display:none;
+align-items:flex-start;
 
 }
 
-.navbar.active{
-
-display:flex;
+.qty-box{
 
 width:100%;
 
-margin-top:20px;
-
-}
-
-.navbar.active{
-
-flex-direction:center;
-
-text-align:center;
+justify-content:flex-start;
 
 }
 
