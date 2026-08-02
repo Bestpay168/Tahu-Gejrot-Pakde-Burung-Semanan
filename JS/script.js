@@ -1,6 +1,6 @@
 
  ======================================
-       LOADER
+  
     ====================================== */
 
     const loader = document.querySelector(".loader");
