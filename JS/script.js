@@ -925,7 +925,7 @@ if (payment) {
 }
 
     // Event tombol + dan -
-    document.querySelectorAll(".produk-item").forEach(function (item) {
+    document.querySelectorAll(".menu-item").forEach(function (item) {
 
         const plus = item.querySelector(".plus");
         const minus = item.querySelector(".minus");
@@ -1154,7 +1154,7 @@ function kirimWhatsApp() {
 
     let adaPesanan = false;
 
-    document.querySelectorAll(".produk-item").forEach(function (item) {
+    document.querySelectorAll(".menu-item").forEach(function (item) {
 
         const qty = parseInt(item.querySelector(".qty").value);
 
