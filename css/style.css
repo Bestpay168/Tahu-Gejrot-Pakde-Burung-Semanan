@@ -1051,47 +1051,6 @@ SCROLL TO TOP
 }
 
 
-/*==========================
-ANIMATION
-==========================*/
-
-@keyframes waFloat{
-
-0%{
-
-transform:translateY(0);
-
-}
-
-50%{
-
-transform:translateY(-12px);
-
-}
-
-100%{
-
-transform:translateY(0);
-
-}
-
-}
-
-.feature h4{
-
-    margin-bottom:12px;
-
-    font-size:22px;
-
-}
-
-.feature p{
-
-    color:var(--gray);
-
-    font-size:15px;
-
-}
 
 /*==============================
 GLOBAL TRANSITION
