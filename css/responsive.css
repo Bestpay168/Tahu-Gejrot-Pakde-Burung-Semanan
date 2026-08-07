@@ -131,6 +131,9 @@ section{
 
 @media(max-width:768px){
 
+.burger{
+  display:none;
+}
 .logo h2{
 
     font-size:18px;
