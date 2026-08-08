@@ -64,6 +64,23 @@ ko:{
 }
 
 };
+function setLang(language){
+
+    document.getElementById("navHome").textContent = lang[language].navHome;
+
+    document.getElementById("navAbout").textContent = lang[language].navAbout;
+
+    document.getElementById("navMenu").textContent = lang[language].navMenu;
+
+    document.getElementById("navGallery").textContent = lang[language].navGallery;
+
+    document.getElementById("navFaq").textContent = lang[language].navFaq;
+
+    document.getElementById("navMaps").textContent = lang[language].navMaps;
+
+    document.getElementById("navOrder").textContent = lang[language].navOrder;
+
+}
 
 
 const lang={
