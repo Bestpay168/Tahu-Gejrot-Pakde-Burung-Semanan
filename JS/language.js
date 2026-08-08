@@ -115,6 +115,7 @@ heroDesc:"매콤하고 신선하며 맛있습니다",
 btnOrder:"지금 주문하기"
 }
 
+
 };
 function setLang(language){
 
