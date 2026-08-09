@@ -175,6 +175,7 @@ body{
 
 .lang-dropdown{
     position:relative;
+z-index:1001;
 }
 
 .langBtn{
@@ -207,6 +208,7 @@ body{
     overflow:hidden;
 
     box-shadow:0 10px 30px rgba(0,0,0,.3);
+z-index:1002;
 
 }
 
