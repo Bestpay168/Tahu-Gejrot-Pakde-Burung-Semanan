@@ -9,6 +9,70 @@ langBtn.onclick=function(){
 
 }
 
+const lang = {
+
+id:{
+    navHome:"Beranda",
+    navMenu:"Menu",
+    navAbout:"Tentang",
+    navGallery:"Galeri",
+    navMaps:"Lokasi",
+    navOrder:"Pesan"
+},
+
+en:{
+    navHome:"Home",
+    
+    navMenu:"Menu",
+    navAbout:"About",
+    navGallery:"Gallery",
+    navMaps:"Location",
+    navOrder:"Order"
+},
+
+zh:{
+    navHome:"首页",
+        navMenu:"菜单",
+    navAbout:"关于我们",
+    navGallery:"图库",
+    
+    navMaps:"位置",
+    navOrder:"订购"
+},
+
+ja:{
+    navHome:"ホーム",
+  
+    navMenu:"メニュー",
+  navAbout:"会社概要",
+    navGallery:"ギャラリー",   
+    navMaps:"所在地",
+    navOrder:"注文"
+},
+
+ko:{
+    navHome:"홈",
+    
+    navMenu:"메뉴",
+navAbout:"소개",
+    navGallery:"갤러리",
+   
+    navMaps:"위치",
+    navOrder:"주문"
+}
+
+};
+function setLang(language){
+
+    document.getElementById("navHome").textContent = lang[language].navHome;
+
+document.getElementById("navMenu").textContent = lang[language].navMenu;
+
+document.getElementById("navAbout").textContent = lang[language].navAbout;
+    document.getElementById("navGallery").textContent = lang[language].navGallery;
+    document.getElementById("navMaps").textContent = lang[language].navMaps;
+
+    document.getElementById("navOrder").textContent = lang[language].navOrder;
 
 
 
