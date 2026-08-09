@@ -32,7 +32,7 @@ en:{
     navGallery:"Gallery",
     navMaps:"Location",
 
-    navOrder:"Order"
+    navOrder:"Order",
     heroTitle:"PAKDE BURUNG TOFU GEJROT",
     heroDesc:"Spicy, Fresh, and Delicious",
     btnOrder:"Order Now",
@@ -78,7 +78,7 @@ ko:{
     navGallery:"갤러리",
    
     navMaps:"위치",
-    navOrder:"주문"
+    navOrder:"주문",
 heroTitle:"박데 부룽 타후 게조롯",
 heroDesc:"매콤하고 신선하며 맛있습니다",
 btnOrder:"지금 주문하기",
