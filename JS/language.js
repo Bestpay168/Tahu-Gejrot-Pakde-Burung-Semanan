@@ -61,23 +61,8 @@ navAbout:"소개",
     navOrder:"주문"
 }
 
-};
-function setLang(language){
 
-    document.getElementById("navHome").textContent = lang[language].navHome;
-
-document.getElementById("navMenu").textContent = lang[language].navMenu;
-
-document.getElementById("navAbout").textContent = lang[language].navAbout;
-    document.getElementById("navGallery").textContent = lang[language].navGallery;
-    document.getElementById("navMaps").textContent = lang[language].navMaps;
-
-    document.getElementById("navOrder").textContent = lang[language].navOrder;
-
-
-
-const lang={
-
+   
 id:{
 heroTitle:"TAHU GEJROT PAKDE BURUNG",
 heroDesc:"Pedas, Segar, dan Bikin Nagih",
