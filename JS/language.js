@@ -47,7 +47,7 @@ zh:{
     navGallery:"图库",
     
     navMaps:"位置",
-    navOrder:"订购"
+    navOrder:"订购",
     heroTitle:"Pakde Burung 印尼特色豆腐",
     heroDesc:"香辣、新鲜、美味",
     btnOrder:"立即订购",
