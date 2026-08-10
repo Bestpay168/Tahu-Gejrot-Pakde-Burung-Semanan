@@ -90,6 +90,19 @@ heroTitle:"박데 부룽 타후 게조롯",
 heroDesc:"매콤하고 신선하며 맛있습니다",
 btnOrder:"지금 주문하기",
 
+ar:{
+    navHome:"الرئيسية",
+    navMenu:"القائمة",
+    navAbout:"من نحن",
+    navGallery:"المعرض",
+    navMaps:"الموقع",
+    navOrder:"اطلب الآن",
+
+    heroTitle:"تاهو جيجروت باكدي بورونغ",
+    heroDesc:"حار • طازج • لذيذ للغاية",
+    btnOrder:"اطلب الآن",
+
+
 }
 
 };
