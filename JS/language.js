@@ -105,13 +105,6 @@ ar:{
 
 function setLang(language){
 
-if(language === "ar"){
-    document.documentElement.lang = "ar";
-    document.documentElement.dir = "rtl";
-}else{
-    document.documentElement.lang = language;
-    document.documentElement.dir = "ltr";
-}
 document.getElementById("heroTitle").textContent=lang[language].heroTitle;
 
 document.getElementById("heroDesc").textContent=lang[language].heroDesc;
