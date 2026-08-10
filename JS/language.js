@@ -1,4 +1,4 @@
-if(language === "ar"){
+if("ar"){
     document.documentElement.lang = "ar";
     document.documentElement.dir = "rtl";
 }
