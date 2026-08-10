@@ -1,3 +1,10 @@
+if(language === "ar"){
+    document.documentElement.lang = "ar";
+    document.documentElement.dir = "rtl";
+}else{
+    document.documentElement.lang = language;
+    document.documentElement.dir = "ltr";
+}
 
 const langBtn=document.getElementById("langBtn");
 
