@@ -1,11 +1,4 @@
-if{
-    document.documentElement.lang = "ar";
-    document.documentElement.dir = "rtl";
-}
-else{
-    document.documentElement.lang = language;
-    document.documentElement.dir = "ltr";
-}
+
 
 const langBtn=document.getElementById("langBtn");
 
@@ -90,6 +83,7 @@ ko:{
 heroTitle:"박데 부룽 타후 게조롯",
 heroDesc:"매콤하고 신선하며 맛있습니다",
 btnOrder:"지금 주문하기",
+}
 
 ar:{
     navHome:"الرئيسية",
@@ -111,6 +105,13 @@ ar:{
 
 function setLang(language){
 
+if(language === "ar"){
+    document.documentElement.lang = "ar";
+    document.documentElement.dir = "rtl";
+}else{
+    document.documentElement.lang = language;
+    document.documentElement.dir = "ltr";
+}
 document.getElementById("heroTitle").textContent=lang[language].heroTitle;
 
 document.getElementById("heroDesc").textContent=lang[language].heroDesc;
