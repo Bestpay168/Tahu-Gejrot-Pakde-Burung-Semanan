@@ -1,7 +1,8 @@
 if(language === "ar"){
     document.documentElement.lang = "ar";
     document.documentElement.dir = "rtl";
-}else{
+}
+else{
     document.documentElement.lang = language;
     document.documentElement.dir = "ltr";
 }
