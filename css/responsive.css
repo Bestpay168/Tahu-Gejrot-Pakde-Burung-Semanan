@@ -11,7 +11,7 @@
 @media(max-width:1200px){
 
 .container{
-    width:92%;
+    width:100%;
 }
 
 .hero h1{
@@ -492,7 +492,7 @@ section h2{
 
 .container{
 
-    max-width:1450px;
+    max-width:100%;
 
 }
 
