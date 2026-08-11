@@ -34,6 +34,7 @@ menuPrice1:"Rp10.000",
 menuPrice2:"Rp15.000",
 menuPrice3:"Rp20.000",
 menuPrice4:"Rp25.000",
+btnMenu:"Lihat Menu",  
 },
 
 en:{
@@ -60,7 +61,7 @@ menuPrice1:"Rp10,000",
 menuPrice2:"Rp15,000",
 menuPrice3:"Rp20,000",
 menuPrice4:"Rp25,000",
-
+btnMenu:"View Menu",
 },
 
 
@@ -87,6 +88,7 @@ menuPrice1:"10,000 印尼盾",
 menuPrice2:"15,000 印尼盾",
 menuPrice3:"20,000 印尼盾",
 menuPrice4:"25,000 印尼盾",
+btnMenu:"查看菜单",
 },
 
 ja:{
@@ -113,6 +115,7 @@ menuPrice1:"10,000ルピア",
 menuPrice2:"15,000ルピア",
 menuPrice3:"20,000ルピア",
 menuPrice4:"25,000ルピア",
+btnMenu:"メニューを見る",
 },
 
 
@@ -139,6 +142,7 @@ menuPrice1:"10,000루피아",
 menuPrice2:"15,000루피아",
 menuPrice3:"20,000루피아",
 menuPrice4:"25,000루피아",
+ btnMenu:"메뉴 보기",
 },
 
 ar:{
@@ -163,7 +167,7 @@ ar:{
     menuPrice2:"15,000 روبية",
     menuPrice3:"20,000 روبية",
     menuPrice4:"25,000 روبية",
-
+btnMenu:"عرض القائمة",
 }
 
 };
@@ -208,6 +212,8 @@ document.getElementById("menuPrice2").textContent=lang[language].menuPrice2;
 document.getElementById("menuPrice3").textContent=lang[language].menuPrice3;
 
 document.getElementById("menuPrice4").textContent=lang[language].menuPrice4;
+
+document.getElementById("btnMenu").textContent=lang[language].btnMenu;
 
 }
 
