@@ -24,7 +24,7 @@ id:{
     heroDesc:"Pedas, Segar, dan Bikin Nagih",
     btnOrder:"Pesan Sekarang",
 
-    menu title:"Menu Kami",
+    menuTitle:"Menu Kami",
 menuDesc:"Pilih menu favorit Anda.",
 menuItem1:"Tahu Gejrot Original",
 menuItem2:"Tahu Gejrot Extra Pedas",
@@ -33,6 +33,7 @@ menuItem4:"Tahu Gejrot Komplit",
 menuPrice1:"Rp10.000",
 menuPrice2:"Rp15.000",
 menuPrice3:"Rp20.000",
+menuPrice4:"Rp25.000",
 },
 
 en:{
@@ -49,7 +50,7 @@ en:{
     btnOrder:"Order Now",
 
 
-    menu title:"Our Menu",
+    menuTitle:"Our Menu",
 menuDesc:"Choose your favorite menu.",
 menuItem1:"Original Tahu Gejrot",
 menuItem2:"Extra Spicy Tahu Gejrot",
@@ -76,7 +77,7 @@ zh:{
     btnOrder:"立即订购",
 
 
-    menu title:"我们的菜单",
+    menuTitle:"我们的菜单",
 menuDesc:"选择您喜欢的菜单。",
 menuItem1:"原味豆腐盖浇",
 menuItem2:"特辣豆腐盖浇",
@@ -102,7 +103,7 @@ heroDesc:"辛くて新鮮、とても美味しい",
 btnOrder:"今すぐ注文",
 
    
-menu title:"メニュー",
+menuTitle:"メニュー",
 menuDesc:"お好きなメニューをお選びください。",
 menuItem1:"オリジナル豆腐ゲジョロット"
 menuItem2:"激辛豆腐ゲジョロット",
@@ -128,7 +129,7 @@ heroTitle:"박데 부룽 타후 게조롯",
 heroDesc:"매콤하고 신선하며 맛있습니다",
 btnOrder:"지금 주문하기",
 
-  menu title:"메뉴",
+  menuTitle:"메뉴",
 menuDesc:"원하는 메뉴를 선택하세요.",
 menuItem1:"오리지널 타후 게조롯",
 menuItem2:"매운 타후 게조롯",
