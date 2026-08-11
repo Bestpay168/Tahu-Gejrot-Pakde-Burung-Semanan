@@ -114,7 +114,7 @@ HEADER
 .navbar{
     display:flex;
     align-items:center;
-    gap:30px;
+    gap:40px;
 }
 
   .navbar a{
