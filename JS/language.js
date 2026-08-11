@@ -34,7 +34,11 @@ menuPrice1:"Rp10.000",
 menuPrice2:"Rp15.000",
 menuPrice3:"Rp20.000",
 menuPrice4:"Rp25.000",
-btnMenu:"Lihat Menu", 
+btnMenu:"Lihat Menu",
+btnOrder1:"Pesan",
+btnOrder2:"Pesan",
+btnOrder3:"Pesan",
+btnOrder4:"Pesan", 
 
 aboutTitle:"Tentang Kami",
 aboutDesc:"TAHU GEJROT PAKDE BURUNG menghadirkan cita rasa khas Cirebon dengan kuah segar, pedas, manis, dan gurih. Menggunakan bahan berkualitas dan diracik setiap hari agar menghasilkan rasa yang konsisten.",
@@ -70,6 +74,10 @@ menuPrice2:"Rp15,000",
 menuPrice3:"Rp20,000",
 menuPrice4:"Rp25,000",
 btnMenu:"View Menu",
+btnOrder1:"Order",
+btnOrder2:"Order",
+btnOrder3:"Order",
+btnOrder4:"Order", 
 
 aboutTitle:"About Us",
 aboutDesc:"PAKDE BURUNG TAHU GEJROT brings the authentic taste of Cirebon with a fresh, spicy, sweet, and savory sauce. Made from high-quality ingredients and prepared fresh every day to ensure consistent flavor.",
@@ -92,6 +100,10 @@ zh:{
     heroTitle:"Pakde Burung 印尼特色豆腐",
     heroDesc:"香辣、新鲜、美味",
     btnOrder:"立即订购",
+btnOrder1:"订购",
+btnOrder2:"订购",
+btnOrder3:"订购",
+btnOrder4:"订购", 
 
 
     menuTitle:"我们的菜单",
@@ -140,6 +152,10 @@ menuPrice2:"15,000ルピア",
 menuPrice3:"20,000ルピア",
 menuPrice4:"25,000ルピア",
 btnMenu:"メニューを見る",
+btnOrder1:"注文",
+btnOrder2:"注文",
+btnOrder3:"注文",
+btnOrder4:"注文", 
 
 aboutTitle:"私たちについて",
 aboutDesc:"PAKDE BURUNG の豆腐ゲジョロットは、チルボン地方の伝統的な味を再現しています。さっぱりとして、辛さ・甘さ・旨味の調和が取れた特製ソースを使用し、毎日厳選した食材で調理することで、いつでも変わらない美味しさをお届けします。",
@@ -175,6 +191,11 @@ menuPrice2:"15,000루피아",
 menuPrice3:"20,000루피아",
 menuPrice4:"25,000루피아",
  btnMenu:"메뉴 보기",
+btnOrder1:"주문",
+btnOrder2:"주문",
+btnOrder3:"주문",
+btnOrder4:"주문", 
+
 
 aboutTitle:"회사 소개",
 aboutDesc:"PAKDE BURUNG 타후 게조롯은 인도네시아 치르본(Cirebon) 지역의 전통적인 맛을 담았습니다. 신선하고 매콤하며 달콤하고 감칠맛 나는 특제 소스를 사용하고, 매일 엄선한 재료로 조리하여 언제나 변함없는 맛을 제공합니다.",
@@ -207,6 +228,11 @@ ar:{
     menuPrice3:"20,000 روبية",
     menuPrice4:"25,000 روبية",
 btnMenu:"عرض القائمة",
+
+btnOrder1:"اطلب الآن",
+btnOrder2:"اطلب الآن",
+btnOrder3:"اطلب الآن",
+btnOrder4:"اطلب الآن", 
 
 aboutTitle:"من نحن",
     aboutDesc:"يقدم تاهو جيجروت باكدي بورونغ النكهة الأصلية لمدينة شيريبون بصلصة طازجة وحارة وحلوة ولذيذة، باستخدام مكونات عالية الجودة يتم تحضيرها يوميًا لضمان طعم ثابت.",
@@ -262,6 +288,14 @@ document.getElementById("menuPrice3").textContent=lang[language].menuPrice3;
 document.getElementById("menuPrice4").textContent=lang[language].menuPrice4;
 
 document.getElementById("btnMenu").textContent=lang[language].btnMenu;
+
+document.getElementById("btnOrder1").textContent=lang[language].btnOrder1;
+
+document.getElementById("btnOrder2").textContent=lang[language].btnOrder2;
+
+document.getElementById("btnOrder3").textContent=lang[language].btnOrder3;
+
+document.getElementById("btnOrder4").textContent=lang[language].btnOrder4;
 
 document.getElementById("aboutTitle").textContent=lang[language].aboutTitle;
 
