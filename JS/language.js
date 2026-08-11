@@ -190,14 +190,23 @@ document.getElementById("navMaps").textContent=lang[language].navMaps;
 document.getElementById("navOrder").textContent=lang[language].navOrder;
 
 document.getElementById("menuTitle").textContent=lang[language].menuTitle;
+
 document.getElementById("menuDesc").textContent=lang[language].menuDesc;
+
 document.getElementById("menuItem1").textContent=lang[language].menuItem1;
+
 document.getElementById("menuItem2").textContent=lang[language].menuItem2;
+
 document.getElementById("menuItem3").textContent=lang[language].menuItem3;
+
 document.getElementById("menuItem4").textContent=lang[language].menuItem4;
+
 document.getElementById("menuPrice1").textContent=lang[language].menuPrice1;
+
 document.getElementById("menuPrice2").textContent=lang[language].menuPrice2;
+
 document.getElementById("menuPrice3").textContent=lang[language].menuPrice3;
+
 document.getElementById("menuPrice4").textContent=lang[language].menuPrice4;
 
 }
