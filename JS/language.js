@@ -105,7 +105,7 @@ btnOrder:"今すぐ注文",
    
 menuTitle:"メニュー",
 menuDesc:"お好きなメニューをお選びください。",
-menuItem1:"オリジナル豆腐ゲジョロット"
+menuItem1:"オリジナル豆腐ゲジョロット",
 menuItem2:"激辛豆腐ゲジョロット",
 menuItem3:"ジャンボ豆腐ゲジョロット",
 menuItem4:"全部入り豆腐ゲジョロット",
@@ -190,7 +190,7 @@ document.getElementById("navMaps").textContent=lang[language].navMaps;
 document.getElementById("navOrder").textContent=lang[language].navOrder;
 
 document.getElementById("menuTitle").textContent=lang[language].menuTitle;
-document.getElementById("menuDesc ").textContent=lang[language].menuDesc;
+document.getElementById("menuDesc").textContent=lang[language].menuDesc;
 document.getElementById("menuItem1").textContent=lang[language].menuItem1;
 document.getElementById("menuItem2").textContent=lang[language].menuItem2;
 document.getElementById("menuItem3").textContent=lang[language].menuItem3;
