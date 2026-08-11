@@ -1644,7 +1644,7 @@ transition:.35s;
 
 .nav{
 
-min-height:75px;
+min-height:70px;
 
 }
 
@@ -1826,15 +1826,15 @@ justify-content:center;
     justify-content:center;
     align-items:center;
 
-    gap:10px;
+   gap:10px;
 
 }
 .plus,
 .minus{
 
-    width:45px;
+    width:40px;
 
-    height:45px;
+    height:40px;
 
     border:none;
 
