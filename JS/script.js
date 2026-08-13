@@ -871,7 +871,7 @@ heroText.innerHTML=slogan[random];
 },5000);
 
 
-},
+}
 
 /* ======================================
    LAZY IMAGE
