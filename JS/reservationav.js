@@ -1,30 +1,22 @@
-const modal=document.getElementById("reservationModal");
+document.addEventListener("DOMContentLoaded", () => {
 
-document
-.getElementById("openReservation")
-.onclick=function(e){
+    const modal = document.getElementById("reservationModal");
+    const open = document.getElementById("openReservation");
+    const close = document.getElementById("closeReservation");
 
-e.preventDefault();
+    open.addEventListener("click", function(e){
+        e.preventDefault();
+        modal.classList.add("show");
+    });
 
-modal.classList.add("show");
+    close.addEventListener("click", function(){
+        modal.classList.remove("show");
+    });
 
-}
+    modal.addEventListener("click", function(e){
+        if(e.target === modal){
+            modal.classList.remove("show");
+        }
+    });
 
-document
-.getElementById("closeReservation")
-.onclick=function(){
-
-modal.classList.remove("show");
-
-}
-
-// Klik area gelap untuk menutup
-modal.onclick=function(e){
-
-if(e.target===modal){
-
-modal.classList.remove("show");
-
-}
-
-}
+});
