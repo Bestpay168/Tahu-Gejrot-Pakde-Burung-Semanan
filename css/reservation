@@ -67,7 +67,7 @@ cursor:pointer;
 
 }
 
-reservation-btn{
+.reservation-btn{
 
 display:flex;
 align-items:center;
