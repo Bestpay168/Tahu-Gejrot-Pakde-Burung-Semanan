@@ -457,29 +457,6 @@ cards[random].style.transform=
 
 const heroSection = document.querySelector(".hero");
 
-const heroImages = [
-    "banner.png",
-
-    ];
-
-let currentHero = 0;
-
-function changeHero(index){
-
-    if(!heroSection) return;
-
-    heroSection.style.opacity = "0.7";
-
-    setTimeout(()=>{
-
-        heroSection.style.backgroundImage =
-        `url('${heroImages[index]}')`;
-
-        heroSection.style.opacity = "1";
-
-    },300);
-
-}
 
 setInterval(()=>{
 
@@ -740,36 +717,6 @@ burger.onclick = () => {
 };
 
 
-/* ======================================
-   CLOSE MENU
-====================================== */
-
-document.querySelectorAll("#navbar a").forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        navbar.classList.remove("active");
-        burger.classList.remove("show");
-
-        if (overlay) {
-            overlay.classList.remove("show");
-        }
-
-    });
-
-});
-
-if (overlay) {
-
-    overlay.addEventListener("click", () => {
-
-        navbar.classList.remove("mobile-active");
-        burger.classList.remove("open");
-        menu-overlay.classList.remove("show");
-
-    });
-
-});
 
 
 /* ======================================
